@@ -1,0 +1,37 @@
+{
+  "name": "read-up",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Read multiple files with a given filename and aggregate the results",
+  "license": "MIT",
+  "repository": "bendrucker/read-up",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "read",
+    "up",
+    "files",
+    "aggregate",
+    "file",
+    "directory"
+  ],
+  "devDependencies": {
+    "proxyquire": "~1.7.11",
+    "standard": "^10.0.2",
+    "tape": "^4.0.0"
+  },
+  "files": [
+    "*.js"
+  ],
+  "dependencies": {
+    "ap": "~0.2.0",
+    "cast-array": "~1.0.1",
+    "run-parallel": "~1.1.6"
+  }
+}
