@@ -1,7 +1,7 @@
 {
   "name": "read-up",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Read multiple files with a given filename and aggregate the results",
   "license": "MIT",
   "repository": "bendrucker/read-up",
