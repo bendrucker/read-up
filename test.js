@@ -76,6 +76,20 @@ test('cwd', function (t) {
   })
 })
 
+test('no root', function (t) {
+  t.plan(2)
+
+  var cwd = path.relative(__dirname, path.resolve(__dirname, 'fixture'))
+
+  readUp('data.txt', {cwd}, function (err, data) {
+    if (err) return t.end(err)
+    t.ok(Array.isArray(data), 'receives array of data')
+    t.deepEqual(data.map(String).map(string => string.trim()), [
+      'root'
+    ])
+  })
+})
+
 test('only ignores ENOENT error', function (t) {
   t.plan(2)
 

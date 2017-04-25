@@ -16,7 +16,7 @@ function readUp (filenames, options, callback) {
   }
 
   var start = options.cwd || process.cwd()
-  var end = options.root || path.parse(start).root
+  var end = options.root || path.parse(start).root || '.'
 
   var results = []
 
