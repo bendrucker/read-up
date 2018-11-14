@@ -1,4 +1,4 @@
-# read-up [![Build Status](https://travis-ci.org/bendrucker/read-up.svg?branch=master)](https://travis-ci.org/bendrucker/read-up)
+# read-up [![Build Status](https://travis-ci.org/bendrucker/read-up.svg?branch=master)](https://travis-ci.org/bendrucker/read-up) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/read-up.svg)](https://greenkeeper.io/)
 
 > Read multiple files with a given filename and aggregate the results
 
